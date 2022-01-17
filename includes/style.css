@@ -1,0 +1,334 @@
+     
+button{
+  border: none;
+  padding: 2px 30px;
+  display: inline-block;
+  font-size: 19.5px;
+  margin: 2px 4px;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  border-radius: 5px;
+
+}
+
+  button:hover{
+  background-color: lightgray;
+  }
+
+  i{
+    width: 20px;
+    height:22px;
+  }
+
+  a{
+    text-decoration: none;
+    color: Black;
+  }
+
+ 
+  #div1{
+    
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 13px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 52px; 
+  }
+
+ 
+  .ourstory{
+  border: 0px;
+  border-style: solid;
+  background-color: gray;
+  color: white;
+  width: 190px;
+  padding-left: 25px;
+  height: 70px;
+  }
+  
+  .details>h3{
+    padding-left:35px;
+    padding-top:25px;
+    
+    font-size: 20px;
+  }
+
+  .details>p{
+    float:right;
+    margin-left: 300px
+  }
+
+ 
+  
+  .companyhistory{
+    border: 0px;
+  border-style: solid;
+  background-color: gray;
+  color: white;
+  width: 190px;
+  padding-left: 25px;
+  height: 65px;
+  padding-top: 20px;
+
+  }
+
+
+  .details1>h3{
+    float: left;
+    margin-top: -87px;
+    margin-bottom: 0px;
+  }
+
+  .vision{
+    border: 0px;
+    border-style: solid;
+    background-color: gray;
+    color: white;
+    width: 190px;
+    padding-right: 25px;
+    height: 70px;
+    margin-left: 90%;
+    }
+    
+  
+    .mission{
+    border: 0px;
+    border-style: solid;
+    background-color: gray;
+    color: white;
+    width: 190px;
+    padding-left: 25px;
+    height: 65px;
+    padding-top: 20px;
+    margin-left: 90%;
+    }
+  
+    .visionmission{
+      
+        background-color: white; 
+        margin:-8px; 
+        height:600px; 
+      
+    }
+
+  #p1{
+    float: right;
+    margin-top: -65px;
+    margin-right: 838px;
+  }
+
+  #p2{
+    float: right;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: -40px
+  }
+
+  #p3{
+    float: right;
+    margin-right: 920px;
+  }
+
+  #p4{
+    float: right;
+    margin-left: 247px;
+    margin-right: 150px;
+    margin-top: -10px
+  }
+
+  #p5{
+    float: right;
+    margin-top: 15px;
+    margin-right: 840px;
+  }
+
+  #p6{
+    float: right;
+    margin-left: 247px;
+    margin-right: 150px;
+    margin-top: -10px
+  }
+
+  #p7{
+    float: right;
+    margin-left: 247px;
+    margin-right: 150px;
+    margin-top: -5px
+    
+  }
+
+  #p8{
+    float: right;
+    margin-top: 0px;
+    margin-right: 875.5px; 
+    
+  }
+
+  .column1 {
+          
+    float: left;
+    width: 25%;
+    padding: 5px;
+    padding-right: 0 5px;
+    margin-left: 130px;
+    margin-top: -449px;  
+    
+  }
+
+  .column2{
+    text-align:center;
+    width: 25%;
+    padding: 5px;
+    padding-right: 0 5px;
+    margin-left: 470px;
+    margin-top: 20px;
+    
+  }
+
+  .column3 {
+    float: right;
+    width: 25%;
+    padding: 50px;
+    padding-right: 0 5px;
+    margin-right: 75px;
+    margin-top: -45px;
+  }
+  
+  .row {
+    margin: 0 -5px;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+  transition: 0.3s;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ 
+
+
+  .name{
+    float:right;
+    line-height: 0px;
+  
+  }
+
+
+  .icon{
+    margin-bottom: -65px;
+  }
+
+  .CompanyName{
+    margin-top: 70px;
+  }
+
+  .companydetails{
+    background-color: white; 
+    margin:-8px; 
+    height:600px; 
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(248, 248, 248);
+    color: rgb(1, 1, 2);
+    height:300px;
+
+
+    align-self: flex-end;
+    
+  }
+
+  .product-text{
+    font-family: calibri;
+    width: 50%;
+    
+  }
+  .product-text button{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color:#9b7760;
+    font-size: 14px;
+  }
+  .product-text button:hover{
+    background-color: #fae8c0;
+    transition: all ease 0.3s;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+  }
+  
+  td, th {
+    border: 1px solid #0a0909;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ebe8e8;
+  }
+
+  /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: " > ";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
